@@ -232,7 +232,18 @@ Task task = queue.take();
 
 ## Examples
 
-See the [examples/](examples/) folder for code demonstrations.
+1. [Example01_ConcurrentCollections.java](examples/Example01_ConcurrentCollections.java) - ConcurrentHashMap, BlockingQueue, CopyOnWriteArrayList
+2. [Example02_BlockingQueue.java](examples/Example02_BlockingQueue.java) - Producer-consumer with ArrayBlockingQueue
+3. [Example03_ConcurrentHashMapAtomicOps.java](examples/Example03_ConcurrentHashMapAtomicOps.java) - compute, merge, word-count style
+
+---
+
+## Exercises
+
+1. [Exercise01_WordCount.java](exercises/Exercise01_WordCount.java) - Thread-safe word count using ConcurrentHashMap
+2. [Exercise02_BoundedTaskQueue.java](exercises/Exercise02_BoundedTaskQueue.java) - Bounded task queue with BlockingQueue and workers
+
+Solutions are in [exercises/solutions/](exercises/solutions/).
 
 ---
 

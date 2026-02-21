@@ -232,7 +232,23 @@ public final class ImmutablePerson {
 
 ## Examples
 
-See the [examples/](examples/) folder for code demonstrations.
+1. [Example01_ForkJoin.java](examples/Example01_ForkJoin.java) - Parallel array sum with RecursiveTask
+2. [Example02_ThreadLocal.java](examples/Example02_ThreadLocal.java) - Per-thread storage and cleanup
+
+---
+
+## Exercises
+
+1. [Exercise01_ParallelSumForkJoin.java](exercises/Exercise01_ParallelSumForkJoin.java) - Implement parallel sum with Fork/Join
+2. [Exercise02_ThreadLocalUsage.java](exercises/Exercise02_ThreadLocalUsage.java) - ThreadLocal request ID with remove()
+
+Solutions are in [exercises/solutions/](exercises/solutions/).
+
+---
+
+## Quiz
+
+Test yourself: [quiz.md](quiz.md)
 
 ---
 

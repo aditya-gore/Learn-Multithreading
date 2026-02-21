@@ -277,7 +277,18 @@ CompletableFuture<String> future = CompletableFuture
 
 ## Examples
 
-See the [examples/](examples/) folder for code demonstrations.
+1. [Example01_CompletableFutureBasics.java](examples/Example01_CompletableFutureBasics.java) - Creation, chaining, combining, error handling
+2. [Example02_ChainingAndErrorHandling.java](examples/Example02_ChainingAndErrorHandling.java) - thenCompose, exceptionally, handle, whenComplete
+3. [Example03_CombiningFutures.java](examples/Example03_CombiningFutures.java) - allOf, anyOf
+
+---
+
+## Exercises
+
+1. [Exercise01_ParallelFetch.java](exercises/Exercise01_ParallelFetch.java) - Fetch two URLs in parallel and combine results
+2. [Exercise02_AsyncChainWithFallback.java](exercises/Exercise02_AsyncChainWithFallback.java) - Chain 3 async steps with error handling and fallback
+
+Solutions are in [exercises/solutions/](exercises/solutions/).
 
 ---
 

@@ -111,6 +111,21 @@ See: [examples/Problem07_FizzBuzz.java](examples/Problem07_FizzBuzz.java)
 
 ---
 
+## Examples Summary
+
+All problem implementations: [Problem01_OddEven.java](examples/Problem01_OddEven.java), [Problem02_ThreeThreads.java](examples/Problem02_ThreeThreads.java), [Problem03_DiningPhilosophers.java](examples/Problem03_DiningPhilosophers.java), [Problem04_ReaderWriter.java](examples/Problem04_ReaderWriter.java), [Problem05_H2O.java](examples/Problem05_H2O.java), [Problem06_BlockingQueue.java](examples/Problem06_BlockingQueue.java), [Problem07_FizzBuzz.java](examples/Problem07_FizzBuzz.java).
+
+---
+
+## Exercises
+
+1. [Exercise01_NThreadSequentialPrinter.java](exercises/Exercise01_NThreadSequentialPrinter.java) - N threads print 1 to M in order
+2. [Exercise02_BarrierRendezvous.java](exercises/Exercise02_BarrierRendezvous.java) - CyclicBarrier rendezvous (3 threads meet then proceed)
+
+Solutions are in [exercises/solutions/](exercises/solutions/).
+
+---
+
 ## Interview Tips
 
 1. **Start Simple:** Begin with the basic solution, then optimize
